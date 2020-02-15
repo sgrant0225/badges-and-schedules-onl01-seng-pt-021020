@@ -23,7 +23,6 @@ def assign_rooms(attendees)
 end  
 
 def printer(attendees)
-print_what = []
 first_attendee = batch_badge_creator(attendees)[0] 
-
+puts first_attendee
 end
