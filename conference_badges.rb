@@ -5,6 +5,5 @@ def badge_maker(name)
 end  
 
 def batch_badge_creator(attendees)
-   new_array = []
-   new_array << badges
+   binding.pry
 end  
