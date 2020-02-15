@@ -6,6 +6,6 @@ end
 
 def batch_badge_creator(attendees)
    attendees << "Johnny"
-   attendees[7] << badges
+   attendees[7] == badges
    return badges
 end  
