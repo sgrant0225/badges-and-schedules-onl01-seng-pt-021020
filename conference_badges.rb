@@ -23,6 +23,6 @@ def assign_rooms(attendees)
 end  
 
 def printer(attendees)
- batch_badge_creator(attendees)
- 
+first_attendee = batch_badge_creator(attendees)[0] 
+ binding.pry
 end
