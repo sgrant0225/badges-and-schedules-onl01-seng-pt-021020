@@ -5,5 +5,6 @@ def badge_maker(name)
 end  
 
 def batch_badge_creator(attendees)
-return "Hello, my name is #{attendees}."
+   return badges
+   binding.pry
 end  
