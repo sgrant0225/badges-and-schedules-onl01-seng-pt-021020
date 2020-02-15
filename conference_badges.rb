@@ -29,4 +29,4 @@ end
 assign_rooms(attendees).each do |print_id| 
   puts print_id
 end  
-
+end
