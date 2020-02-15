@@ -6,5 +6,6 @@ end
 
 def batch_badge_creator(attendees)
    attendees << "Johnny"
+   binding.pry
    return badges
 end  
